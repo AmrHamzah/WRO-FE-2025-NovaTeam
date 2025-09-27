@@ -1,1 +1,71 @@
+import time
+from gpiozero import Motor, Servo, DistanceSensor # here we import the stucure of our code 
+
+motor = Motor(forward=20, backward=12) # definde the motor
+steering = Servo(17) # definde the servo
+T_P = 5   # sensor pins 
+E_P = 6
+sensor = DistanceSensor(echo=E_P, trigger=T_P) # definde the ultrasinc 
+# code settings 
+base_speed = 0.3
+turn_servo_value = -0.9  
+turn_duration = 5.2      
+straight_time = 2         
+steering_return_speed = 0.02  
+max_turns = 12             
+
+motor.forward(base_speed) # starst move 
+
+def return_steering_to_center(): # steering func  
+    current = steering.value
+    while current is not None and abs(current) > 0.01:
+        if current > 0:
+            current -= steering_return_speed
+        else:
+            current += steering_return_speed
+        steering.value = current
+        time.sleep(0.01)
+    steering.value = 0
+
+turn_count = 0  
+
+try:
+    while True: # main loop 
+        distance = sensor.distance * 100
+
+        if distance <= 60 and turn_count < max_turns:
+            
+            t_start = time.time()
+            while time.time() - t_start < turn_duration:
+                steering.value = turn_servo_value
+                motor.forward(base_speed)
+                time.sleep(0.01)
+            
+            turn_count += 1  
+            print(turn_count)
+           
+            t_straight = time.time()
+            while time.time() - t_straight < straight_time:
+                motor.forward(base_speed)
+                return_steering_to_center()
+                time.sleep(0.01)
+            
+        elif turn_count >= max_turns:
+            
+            motor.stop()
+            steering.value = 0
+            print("max turns reached")
+            break
+        else:
+            motor.forward(base_speed)
+            return_steering_to_center()
+
+        time.sleep(0.05)
+
+except KeyboardInterrupt:
+    motor.stop()
+    steering.value = 0
+
+
+
 
