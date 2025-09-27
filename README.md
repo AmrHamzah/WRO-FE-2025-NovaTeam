@@ -1,4 +1,5 @@
-<h1 style="font-family:Verdana; font-size:40px; color:blue;"> Nova team  WRO future engineers 2025</h1>
+<h1 style="font-family:Verdana; font-size:40px; color:blue;"> Nova team 
+  WRO future engineers 2025</h1>
 
 <h1 style="font-family:Verdana; color:blue;">About us</h1>
 
