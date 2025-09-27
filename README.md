@@ -13,7 +13,7 @@ A fifteen years old Palestinian, His Instagram account:
 https://www.instagram.com/mo_abu_lab?igsh=MWw5dDl1aWxjZjBvNQ==
 </p>
 
-<h2 style="font-family:Verdana;">Amr Hamza</h2>
+<h2 style="font-family:Verdana;">Amr Hamzah</h2>
 <p style="font-family:Verdana;">
 A fifteen years old Palestinian, His Instagram account:  
   
