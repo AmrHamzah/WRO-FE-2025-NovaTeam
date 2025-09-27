@@ -120,5 +120,6 @@ It was an experience fraught with obstacles and problems, especially since it wa
 
 <p style="font-family:Verdana; font-weight:bold; font-style:italic;">
 We thank our engineer Wissam Nasriyah for teaching us from zero to hero, and we thank him for his time spent with us.  
+  
 We also thank engineer Mohammed Dababseh and supervisor Abeer Mosa for their assistance with some of the tasks.
 </p>
