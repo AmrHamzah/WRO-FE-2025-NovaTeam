@@ -73,7 +73,7 @@ We used an L298N motor driver because it's sufficient for the number of motors u
 Link to buy it on AliExpress: https://a.aliexpress.com/_c4KmNA5d
 </p>
 
-<h2 style="font-family:Verdana;">8_ Gyroscope</h2>
+<h2 style="font-family:Verdana;">8- Gyroscope</h2>
 <p style="font-family:Verdana;">
 We used the MPU-6050 gyroscope because it combines two sensors: a gyroscope and an accelerometer. It's small and available. It costs $2 on AliExpress  
 Link to buy on AliExpress: https://a.aliexpress.com/_c4M4AGgF
