@@ -58,83 +58,83 @@ We started with a ready-made kit and modified it to suit our task. For example, 
 
 <h1 style="font-family:Verdana; color:blue;">Hardware</h1>
 
-<h2 style="font-family:Verdana; color:blue;">1. The Robot</h2>
+<h2 style="font-family:Verdana; color:blue;">1- The Robot</h2>
 <p style="font-family:Verdana;">
 We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
 </p>
 <ul style="font-family:Verdana;">
-  <li>Ground layer: DC motor + servo motor</li>
+  <li>Ground layer: DC motor and servo motor</li>
   <li>Second layer: Battery</li>
-  <li>Third layer: Power button + power regulation circuit</li>
-  <li>Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera, motor driver</li>
+  <li>Third layer: Power button and power regulation circuit</li>
+  <li>Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera and motor driver</li>
 </ul>
 <p style="font-family:Verdana;">
 All connected with jumper wires.
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">2. Kit Used</h2>
+<h2 style="font-family:Verdana; color:blue;">2- Kit Used</h2>
 <p style="font-family:Verdana;">
-MG996 car model (servo + DC motor)<br>
+MG996 car model servo and DC motor<br>
 Available in Palestine and suitable for our task<br>
 Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">3. Microcontroller</h2>
+<h2 style="font-family:Verdana; color:blue;">3- Microcontroller</h2>
 <p style="font-family:Verdana;">
-Raspberry Pi 4 (8GB RAM)<br>
+Raspberry Pi 4 8GB RAM<br>
 Fast CPU, Python support, and available locally<br>
 Cost: $92 <a href="https://a.aliexpress.com/_c2yjCN0B" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">4. Battery</h2>
+<h2 style="font-family:Verdana; color:blue;">4- Battery</h2>
 <p style="font-family:Verdana;">
 12.6V, 6A lithium battery<br>
 High voltage & capacity, adjustable output
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">5. DC Power Converter</h2>
+<h2 style="font-family:Verdana; color:blue;">5- DC Power Converter</h2>
 <p style="font-family:Verdana;">
 XL4015 (32V → 1.25V adjustable)<br>
 Easy to install<br>
 Cost: $1 <a href="https://a.aliexpress.com/_c38oxv2b" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">6. Ultrasonic Sensors</h2>
+<h2 style="font-family:Verdana; color:blue;">6- Ultrasonic Sensors</h2>
 <p style="font-family:Verdana;">
 3 × HC-SR04<br>
-Voltage: 3.3–5V<br>
-Range: 2cm–400cm<br>
+Voltage: 3.3 to 5V<br>
+Range: 2cm to 400cm<br>
 Cost: $1 each <a href="https://a.aliexpress.com/_c44IsbMJ" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">7. Motor Driver</h2>
+<h2 style="font-family:Verdana; color:blue;">7- Motor Driver</h2>
 <p style="font-family:Verdana;">
 L298N motor driver<br>
 Sufficient for our motors<br>
 Cost: $1.50 <a href="https://a.aliexpress.com/_c4KmNA5d" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">8. Gyroscope</h2>
+<h2 style="font-family:Verdana; color:blue;">8- Gyroscope</h2>
 <p style="font-family:Verdana;">
-MPU-6050 (gyroscope + accelerometer)<br>
+MPU-6050 gyroscope and accelerometer<br>
 Small, efficient, available<br>
 Cost: $2 <a href="https://a.aliexpress.com/_c4M4AGgF" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">9. Camera</h2>
+<h2 style="font-family:Verdana; color:blue;">9- Camera</h2>
 <p style="font-family:Verdana;">
 Ultra-wide USB camera<br>
 Better than Pi camera & easier to program
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">10. Jumper Wires</h2>
+<h2 style="font-family:Verdana; color:blue;">10- Jumper Wires</h2>
 <p style="font-family:Verdana;">
-Male-to-male, male-to-female, female-to-female<br>
+Male to male, male to female, female to female<br>
 Strong, reusable, Raspberry Pi compatible<br>
 Cost: $3 <a href="https://a.aliexpress.com/_c32YGaWf" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">11. On/Off Button</h2>
+<h2 style="font-family:Verdana; color:blue;">11- On/Off Button</h2>
 <p style="font-family:Verdana;">
 Regular switch<br>
 Inexpensive and easy to install
@@ -144,14 +144,14 @@ Inexpensive and easy to install
 
 <h1 style="font-family:Verdana; color:blue;">Software</h1>
 
-<h2 style="font-family:Verdana; color:blue;">1. Language</h2>
+<h2 style="font-family:Verdana; color:blue;">1- Language</h2>
 <p style="font-family:Verdana;">
-Python 3 (main Raspberry Pi language, large library support, big community)
+Python 3 main Raspberry Pi language, large library support and big community
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">2. Operating System</h2>
+<h2 style="font-family:Verdana; color:blue;">2- Operating System</h2>
 <p style="font-family:Verdana;">
-Linux (compatible with our Raspberry Pi version, included libraries and programming tools)
+Linux compatible with our Raspberry Pi version, included libraries and programming tools
 </p>
 
 <hr>
@@ -162,7 +162,7 @@ We gained valuable skills, including:
 </p>
 <ul style="font-family:Verdana;">
   <li>Team spirit, cooperation, and shared decision-making</li>
-  <li>Problem-solving in programming and hardware</li>
+  <li>Problem solving in programming and hardware</li>
   <li>Overcoming obstacles in our first robotics project</li>
 </ul>
 
@@ -170,6 +170,6 @@ We gained valuable skills, including:
 
 <h1 style="font-family:Verdana; color:blue;">Special Thanks</h1>
 <p style="font-family:Verdana;">
-Engineer Wissam Nasriyah – for guiding us from zero to hero<br>
-Engineer Mohammed Dababseh and Supervisor Abeer Mosa – for their support in several tasks
+Engineer Wissam Nasriyah for guiding us from zero to hero<br>
+Engineer Mohammed Dababseh and Supervisor Abeer Mosa for their support in several tasks
 </p>
