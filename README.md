@@ -1,143 +1,175 @@
-<h1 style="font-family:Verdana; font-size:40px; color:blue;">Nova team WRO future engineers 2025</h1>
+<h1 style="font-family:Verdana; font-size:40px; color:blue;">Nova Team – WRO Future Engineers 2025</h1>
 
-<h1 style="font-family:Verdana; color:blue;">About us</h1>
-
+<h1 style="font-family:Verdana; color:blue;">About Us</h1>
 <p style="font-family:Verdana;">
-We are a team of three members :
+We are a team of three members:
 </p>
 
 <h2 style="font-family:Verdana; color:blue;">Mohammad Abu Laban</h2>
 <p style="font-family:Verdana;">
-A fifteen years old Palestinian, His Instagram account:  
-https://www.instagram.com/mo_abu_lab?igsh=MWw5dDl1aWxjZjBvNQ==
+A fifteen-year-old Palestinian.<br>
+Instagram: <a href="https://www.instagram.com/mo_abu_lab" target="_blank">mo_abu_lab</a>
 </p>
 
 <h2 style="font-family:Verdana; color:blue;">Amr Younis</h2>
 <p style="font-family:Verdana;">
-A fifteen years old Palestinian, His Instagram account:  
-https://www.instagram.com/amr.younis04?igsh=MXZvejNpNmRodHdyaQ==
+A fifteen-year-old Palestinian.<br>
+Instagram: <a href="https://www.instagram.com/amr.younis04" target="_blank">amr.younis04</a>
 </p>
 
 <h2 style="font-family:Verdana; color:blue;">Ibrahim Mummar</h2>
 <p style="font-family:Verdana;">
-A fifteen years old Palestinian, His Instagram account:  
-https://www.instagram.com/lbrameem_mum?igsh=bjh0ZmQwdjF6MDVx
+A fifteen-year-old Palestinian.<br>
+Instagram: <a href="https://www.instagram.com/lbrameem_mum" target="_blank">lbrameem_mum</a>
 </p>
 
 <p style="font-family:Verdana;">
-We are pleased to introduce you to our project, which is to build and program a robot capable of traversing a specific path, which is a path consisting of a white carpet and two lines in each corner, an orange line and a blue line. The dimensions of the carpet are three meters long and a three meter wide area surrounded by a 10-cm-high black wooden wall and a 10-cm-high square black wooden wall in the middle of the carpet.
+We are pleased to introduce our project, which involves building and programming a robot capable of traversing a specific path. This path consists of a white carpet with two lines in each corner, as well as an orange line and a blue line. The carpet measures three meters long and three meters wide, surrounded by a 10-cm-high black wooden wall, with a 10-cm-high square black wooden wall in the middle of the carpet.
 </p>
 
-<h1 style="font-family:Verdana; color:blue;">Power and sense management:</h1>
+<hr>
 
-<p style="font-family:Verdana; font-weight:bold; font-style:italic;">
-We used a 12.6 volt, 6A rechargeable lithium battery. It's a medium-weight battery with a large capacity, enough for all the components. We distributed the power correctly so that no single component consumes more power.
-</p>
-
-<h1 style="font-family:Verdana; color:blue;">Obstacle management:</h1>
-
-<p style="font-family:Verdana; font-weight:bold; font-style:italic;">
-The robot deals with obstacles using ultrasonic technology and a camera. Ultrasonic technology measures the distance between the obstacle and the robot, enabling it to adjust its direction. Ultrasonic technology works by sending out sound waves and when it bounces, it measures the distance between the robot and the obstacle. We used the camera to recognize colors, and it gives a signal to the Raspberry Pi that there is an obstacle in the following color, for example, red, so the robot moves according to the data we gave it.
-</p>
-
-<h1 style="font-family:Verdana; color:blue;">Engineering factor:</h1>
-
-<p style="font-family:Verdana; font-weight:bold; font-style:italic;">
-We brought a ready made kit and modified it to suit our task, such as adding additional layers to contain all the parts we use. We also ensured that the load was distributed, such as placing the battery in the middle so it wouldn't tilt.
-</p>
-
-<h1 style="font-family:Verdana; color:blue;">Hardware:</h1>
-
-<h2 style="font-family:Verdana; color:blue;">1- The robot in general</h2>
+<h1 style="font-family:Verdana; color:blue;">Power and Sense Management</h1>
 <p style="font-family:Verdana;">
-We used a ready made kit and modified it to suit our task by adding a layer of acrylic and two layers of plastic to give us additional space for assembling parts. The total number of layers became four the ground layer is the DC motor and servo motor The second layer is the battery The third layer is for the power button and the power regulation circuit The third layer is for the Raspberry Pi, the gyroscope, the three ultrasonic sensors, the camera, and the driver we connected it by jumper wires
+We used a 12.6-volt, 6A rechargeable lithium battery. It’s a medium-weight battery with large capacity, sufficient for all components. We distributed the power correctly so that no single component consumes more than its share.
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">2- Kit used</h2>
+<hr>
+
+<h1 style="font-family:Verdana; color:blue;">Obstacle Management</h1>
 <p style="font-family:Verdana;">
-The MG996 is a car model with a servo motor and a DC motor We used this kit because it's available in Palestine and suitable for our task With some modifications, it costs $95 on AliExpress  
-Link to buy it on AliExpress: https://a.aliexpress.com/_c3kFLPlv
+The robot deals with obstacles using ultrasonic sensors and a camera.
 </p>
-
-<h2 style="font-family:Verdana; color:blue;">3- The microcontroller used</h2>
 <p style="font-family:Verdana;">
-We used a Raspberry Pi 4 with 8 GB RAM because it's available in Palestine, has a fast CPU, and uses Python, which we have some background in. Its price on AliExpress is $92  
-Link to buy it from AliExpress: https://a.aliexpress.com/_c2yjCN0B
+Ultrasonic technology measures the distance between the obstacle and the robot, enabling it to adjust its direction. It works by sending out sound waves and measuring their bounce.
 </p>
-
-<h2 style="font-family:Verdana; color:blue;">4- Battery</h2>
 <p style="font-family:Verdana;">
-We used a 12.6 volt, 6 A lithium battery We used this battery because it provides a high voltage that we can adjust to suit any part used in the robot, and its high capacity saves us from having to replace the battery
+The camera recognizes colors and sends a signal to the Raspberry Pi. For example, when detecting red, the robot reacts according to the instructions we programmed.
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">5- DC Power Converter</h2>
+<hr>
+
+<h1 style="font-family:Verdana; color:blue;">Engineering Factor</h1>
 <p style="font-family:Verdana;">
-We used the XL4015 because it's easy to install and can control voltages from 32V to 1.25V. It costs $1 on AliExpress.  
-Link to buy it on AliExpress: https://a.aliexpress.com/_c38oxv2b
+We started with a ready-made kit and modified it to suit our task. For example, we added additional layers to contain all the parts and ensured balanced weight distribution, placing the battery in the middle to prevent tilting.
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">6- Ultrasonic</h2>
+<hr>
+
+<h1 style="font-family:Verdana; color:blue;">Hardware</h1>
+
+<h2 style="font-family:Verdana; color:blue;">1. The Robot</h2>
 <p style="font-family:Verdana;">
-We used three HC-SR04 ultrasonic probes because they are inexpensive, use a low voltage of 3.3 to 5 volts, are highly accurate, provide an excellent range of 2 cm to 400 cm, and are widely available. The price of one unit is $1 on AliExpress  
-Link to buy it from AliExpress: https://a.aliexpress.com/_c44IsbMJ
+We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
 </p>
-
-<h2 style="font-family:Verdana; color:blue;">7- Motor Driver</h2>
+<ul style="font-family:Verdana;">
+  <li>Ground layer: DC motor + servo motor</li>
+  <li>Second layer: Battery</li>
+  <li>Third layer: Power button + power regulation circuit</li>
+  <li>Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera, motor driver</li>
+</ul>
 <p style="font-family:Verdana;">
-We used an L298N motor driver because it's sufficient for the number of motors used, provides adequate voltage for the motors we're using, and is widely available. It costs $1.50 on AliExpress  
-Link to buy it on AliExpress: https://a.aliexpress.com/_c4KmNA5d
+All connected with jumper wires.
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">8- Gyroscope</h2>
+<h2 style="font-family:Verdana; color:blue;">2. Kit Used</h2>
 <p style="font-family:Verdana;">
-We used the MPU-6050 gyroscope because it combines two sensors: a gyroscope and an accelerometer. It's small and available. It costs $2 on AliExpress  
-Link to buy on AliExpress: https://a.aliexpress.com/_c4M4AGgF
+MG996 car model (servo + DC motor)<br>
+Available in Palestine and suitable for our task<br>
+Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">9- Camera</h2>
+<h2 style="font-family:Verdana; color:blue;">3. Microcontroller</h2>
 <p style="font-family:Verdana;">
-We used an ultra wide USB camera because it's better than a regular Raspberry Pi camera and easier to program.
+Raspberry Pi 4 (8GB RAM)<br>
+Fast CPU, Python support, and available locally<br>
+Cost: $92 <a href="https://a.aliexpress.com/_c2yjCN0B" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">10- Jumper Wires</h2>
+<h2 style="font-family:Verdana; color:blue;">4. Battery</h2>
 <p style="font-family:Verdana;">
-We used reusable male-to-male, male-to-female, and female-to-female jumper wires. They're strong, deliver the voltage we need, and are compatible with Raspberry Pi pins. All three kinds costs $3 in AliExpress  
-Link to buy on AliExpress: https://a.aliexpress.com/_c32YGaWf
+12.6V, 6A lithium battery<br>
+High voltage & capacity, adjustable output
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">11- On/Off Button</h2>
+<h2 style="font-family:Verdana; color:blue;">5. DC Power Converter</h2>
 <p style="font-family:Verdana;">
-We used a regular on/off button, which is widely available, inexpensive, and easy to install and use.
+XL4015 (32V → 1.25V adjustable)<br>
+Easy to install<br>
+Cost: $1 <a href="https://a.aliexpress.com/_c38oxv2b" target="_blank">AliExpress</a>
 </p>
 
-<h1 style="font-family:Verdana; color:blue;">Software:</h1>
-
-<h2 style="font-family:Verdana; color:blue;">1- Language Used</h2>
+<h2 style="font-family:Verdana; color:blue;">6. Ultrasonic Sensors</h2>
 <p style="font-family:Verdana;">
-We used Python 3 because it's the Raspberry Pi programming language. We have a background in it, and it offers many libraries for all pieces. It also has a large community of programmers.
+3 × HC-SR04<br>
+Voltage: 3.3–5V<br>
+Range: 2cm–400cm<br>
+Cost: $1 each <a href="https://a.aliexpress.com/_c44IsbMJ" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">2- Raspberry Pi Operating System</h2>
+<h2 style="font-family:Verdana; color:blue;">7. Motor Driver</h2>
 <p style="font-family:Verdana;">
-We used a Linux system compatible with the Raspberry Pi version we had, which included some of the main libraries and some programming programs.
+L298N motor driver<br>
+Sufficient for our motors<br>
+Cost: $1.50 <a href="https://a.aliexpress.com/_c4KmNA5d" target="_blank">AliExpress</a>
 </p>
 
-<h1 style="font-family:Verdana; color:blue;">Experience and acquired expertise:</h1>
-
+<h2 style="font-family:Verdana; color:blue;">8. Gyroscope</h2>
 <p style="font-family:Verdana;">
-We gained a lot of experience, including team spirit, cooperation, and consultation in decision-making, not allowing minor disagreements to hinder our work, and we learned how to deal with problems in code.
+MPU-6050 (gyroscope + accelerometer)<br>
+Small, efficient, available<br>
+Cost: $2 <a href="https://a.aliexpress.com/_c4M4AGgF" target="_blank">AliExpress</a>
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">Our experience:</h2>
-
+<h2 style="font-family:Verdana; color:blue;">9. Camera</h2>
 <p style="font-family:Verdana;">
-It was an experience fraught with obstacles and problems, especially since it was our first time dealing with robots and programming, but we overcame these problems and obstacles thanks to our hard work and cooperation.
+Ultra-wide USB camera<br>
+Better than Pi camera & easier to program
 </p>
 
-<h1 style="font-family:Verdana; color:blue;">Special Thanks:</h1>
+<h2 style="font-family:Verdana; color:blue;">10. Jumper Wires</h2>
+<p style="font-family:Verdana;">
+Male-to-male, male-to-female, female-to-female<br>
+Strong, reusable, Raspberry Pi compatible<br>
+Cost: $3 <a href="https://a.aliexpress.com/_c32YGaWf" target="_blank">AliExpress</a>
+</p>
 
-<p style="font-family:Verdana; font-weight:bold; font-style:italic;">
-We thank our engineer Wissam Nasriyah for teaching us from zero to hero, and we thank him for his time spent with us.  
-  
-We also thank engineer Mohammed Dababseh and supervisor Abeer Mosa for their assistance with some of the tasks.
+<h2 style="font-family:Verdana; color:blue;">11. On/Off Button</h2>
+<p style="font-family:Verdana;">
+Regular switch<br>
+Inexpensive and easy to install
+</p>
+
+<hr>
+
+<h1 style="font-family:Verdana; color:blue;">Software</h1>
+
+<h2 style="font-family:Verdana; color:blue;">1. Language</h2>
+<p style="font-family:Verdana;">
+Python 3 (main Raspberry Pi language, large library support, big community)
+</p>
+
+<h2 style="font-family:Verdana; color:blue;">2. Operating System</h2>
+<p style="font-family:Verdana;">
+Linux (compatible with our Raspberry Pi version, included libraries and programming tools)
+</p>
+
+<hr>
+
+<h1 style="font-family:Verdana; color:blue;">Experience and Acquired Expertise</h1>
+<p style="font-family:Verdana;">
+We gained valuable skills, including:
+</p>
+<ul style="font-family:Verdana;">
+  <li>Team spirit, cooperation, and shared decision-making</li>
+  <li>Problem-solving in programming and hardware</li>
+  <li>Overcoming obstacles in our first robotics project</li>
+</ul>
+
+<hr>
+
+<h1 style="font-family:Verdana; color:blue;">Special Thanks</h1>
+<p style="font-family:Verdana;">
+Engineer Wissam Nasriyah – for guiding us from zero to hero<br>
+Engineer Mohammed Dababseh and Supervisor Abeer Mosa – for their support in several tasks
 </p>
