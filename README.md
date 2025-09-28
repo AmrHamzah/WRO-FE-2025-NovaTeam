@@ -28,6 +28,21 @@ https://www.instagram.com/lbrameem_mum?igsh=bjh0ZmQwdjF6MDVx
 We are pleased to introduce you to our project, which is to build and program a robot capable of traversing a specific path, which is a path consisting of a white carpet and two lines in each corner, an orange line and a blue line. The dimensions of the carpet are three meters long and a three meter wide area surrounded by a 10-cm-high black wooden wall and a 10-cm-high square black wooden wall in the middle of the carpet.
 </p>
 
+<h1 style="font-family:Verdana; color:blue;">Power and sense management:</h1>
+
+<p style="font-family:Verdana; font-weight:bold; font-style:italic;">
+We used a 12.6 volt, 6A rechargeable lithium battery. It's a medium-weight battery with a large capacity, enough for all the components. We distributed the power correctly so that no single component consumes more power.
+</p>
+
+<h1 style="font-family:Verdana; color:blue;">Obstacle management:</h1>
+
+<p style="font-family:Verdana; font-weight:bold; font-style:italic;">
+The robot deals with obstacles using ultrasonic technology and a camera. Ultrasonic technology measures the distance between the obstacle and the robot, enabling it to adjust its direction. Ultrasonic technology works by sending out sound waves and when it bounces, it measures the distance between the robot and the obstacle. We used the camera to recognize colors, and it gives a signal to the Raspberry Pi that there is an obstacle in the following color, for example, red, so the robot moves according to the data we gave it.
+</p>
+
+Engineering factor:
+We brought a ready made kit and modified it to suit our task, such as adding additional layers to contain all the parts we use . We also ensured that the load was distributed, such as placing the battery in the middle so it wouldn't tilt. 
+
 <h1 style="font-family:Verdana; color:blue;">Hardware:</h1>
 
 <h2 style="font-family:Verdana; color:blue;">1- The robot in general</h2>
