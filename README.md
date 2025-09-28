@@ -162,8 +162,16 @@ We gained valuable skills, including:
 </p>
 <ul style="font-family:Verdana;">
   <li>Team spirit, cooperation, and shared decision-making</li>
-  <li>Problem solving in programming and hardware</li>
+  <li>Problem-solving in programming and hardware</li>
   <li>Overcoming obstacles in our first robotics project</li>
+</ul>
+
+<p style="font-family:Verdana;">
+We also developed advanced technical expertise, such as:
+</p>
+<ul style="font-family:Verdana;">
+  <li>Developing intelligent systems based on computer vision and integrating multiple sensors to increase robot awareness of the surrounding environment, helping it analyze the path conditions and react to changes with high accuracy</li>
+  <li>Developing an integrated vehicle based on open source components, including motors, sensors, and electromechanical control systems, with the ability to be modified and continuously developed to enhance performance and reliability</li>
 </ul>
 
 <hr>
