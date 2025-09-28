@@ -40,8 +40,11 @@ We used a 12.6 volt, 6A rechargeable lithium battery. It's a medium-weight batte
 The robot deals with obstacles using ultrasonic technology and a camera. Ultrasonic technology measures the distance between the obstacle and the robot, enabling it to adjust its direction. Ultrasonic technology works by sending out sound waves and when it bounces, it measures the distance between the robot and the obstacle. We used the camera to recognize colors, and it gives a signal to the Raspberry Pi that there is an obstacle in the following color, for example, red, so the robot moves according to the data we gave it.
 </p>
 
-Engineering factor:
-We brought a ready made kit and modified it to suit our task, such as adding additional layers to contain all the parts we use . We also ensured that the load was distributed, such as placing the battery in the middle so it wouldn't tilt. 
+<h1 style="font-family:Verdana; color:blue;">Engineering factor:</h1>
+
+<p style="font-family:Verdana; font-weight:bold; font-style:italic;">
+We brought a ready made kit and modified it to suit our task, such as adding additional layers to contain all the parts we use. We also ensured that the load was distributed, such as placing the battery in the middle so it wouldn't tilt.
+</p>
 
 <h1 style="font-family:Verdana; color:blue;">Hardware:</h1>
 
