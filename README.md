@@ -5,16 +5,17 @@
 We are a team of three members:
 </p>
 
-<h2 style="font-family:Verdana; color:blue;">Mohammad Abu Laban</h2>
-<p style="font-family:Verdana;">
-A fifteen-year-old Palestinian.<br>
-Instagram: <a href="https://www.instagram.com/mo_abu_lab" target="_blank">mo_abu_lab</a>
-</p>
 
 <h2 style="font-family:Verdana; color:blue;">Amr Younis</h2>
 <p style="font-family:Verdana;">
 A fifteen-year-old Palestinian.<br>
 Instagram: <a href="https://www.instagram.com/amr.younis04" target="_blank">amr.younis04</a>
+</p>
+
+<h2 style="font-family:Verdana; color:blue;">Mohammad Abu Laban</h2>
+<p style="font-family:Verdana;">
+A fifteen-year-old Palestinian.<br>
+Instagram: <a href="https://www.instagram.com/mo_abu_lab" target="_blank">mo_abu_lab</a>
 </p>
 
 <h2 style="font-family:Verdana; color:blue;">Ibrahim Mummar</h2>
