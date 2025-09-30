@@ -170,18 +170,11 @@ Engineer <b>Mohammed Dababseh</b> and Supervisor <b>Abeer Mosa</b> for their sup
 
 <h1 style="font-family:Verdana; color:blue;">Conclusion and Future Vision</h1>
 <p style="font-family:Verdana;">
-Our journey in building and programming this robot was only the beginning. We managed to transform an idea into a working prototype capable of navigating, sensing, and reacting to its environment. 
+For us, this project was not just about building a robot — it was about proving what a group of motivated students can achieve with creativity, persistence, and teamwork. 
 <br><br>
-In the future, we aim to improve our design by:
-</p>
-<ul style="font-family:Verdana;">
-  <li>Enhancing computer vision for more accurate color and shape recognition.</li>
-  <li>Using AI models to make the robot smarter in decision-making.</li>
-  <li>Expanding power efficiency with advanced batteries and lightweight materials.</li>
-  <li>Designing a more compact and modular body that can adapt to different tasks.</li>
-</ul>
-<p style="font-family:Verdana;">
-This project not only gave us technical skills but also teamwork, problem-solving, and the confidence to innovate. We believe that with more effort and learning, our robot can evolve from a competition model into a practical tool for real-life applications. 
+Our next steps will focus on turning our passion for robotics into solutions that can help people in everyday life. From intelligent navigation systems to practical automation, we want to expand the boundaries of what we can design and build. 
 <br><br>
-<b>Nova Team – always moving forward</b>
+This is only the beginning of our journey. With every challenge, we see an opportunity to grow and innovate. 
+<br><br>
+<b>Nova Team – Building today, imagining tomorrow 🚀</b>
 </p>
