@@ -58,7 +58,6 @@ Choosing this battery was critical. If the battery were weaker, the motors would
 <p style="font-family:Verdana;">
 Proper power distribution is a fundamental engineering principle. We made sure to calculate the voltage and current needed for each component, so no single part gets more than it can handle. This avoids overheating, unexpected resets, or damage, making the system safer and more reliable.
 </p>
-![Lithium Battery](https://upload.wikimedia.org/wikipedia/commons/0/0d/Lithium_battery_18650.jpg)
 
 <hr>
 
