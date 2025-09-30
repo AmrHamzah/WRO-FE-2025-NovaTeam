@@ -155,7 +155,6 @@ These experiences taught us critical thinking, problem-solving, and how to itera
 </ul><hr><h1 style="font-family:Verdana; color:blue;">Future Improvements</h1>
 <ul style="font-family:Verdana;">
   <li>Adding AI-based obstacle prediction.</li>
-  <li>Developing a mobile app for remote control.</li>
   <li>Using a lighter, higher-capacity battery.</li>
   <li>Improving speed and efficiency with better motors.</li>
 </ul>
@@ -165,4 +164,24 @@ We plan to continuously refine the robot’s capabilities, making it smarter, fa
 <p style="font-family:Verdana;">
 Engineer <b>Wissam Nasriyah</b> for guiding us from zero to hero.<br>
 Engineer <b>Mohammed Dababseh</b> and Supervisor <b>Abeer Mosa</b> for their support in several tasks.
+</p>
+
+<hr>
+
+<h1 style="font-family:Verdana; color:blue;">Conclusion and Future Vision</h1>
+<p style="font-family:Verdana;">
+Our journey in building and programming this robot was only the beginning. We managed to transform an idea into a working prototype capable of navigating, sensing, and reacting to its environment. 
+<br><br>
+In the future, we aim to improve our design by:
+</p>
+<ul style="font-family:Verdana;">
+  <li>Enhancing computer vision for more accurate color and shape recognition.</li>
+  <li>Using AI models to make the robot smarter in decision-making.</li>
+  <li>Expanding power efficiency with advanced batteries and lightweight materials.</li>
+  <li>Designing a more compact and modular body that can adapt to different tasks.</li>
+</ul>
+<p style="font-family:Verdana;">
+This project not only gave us technical skills but also teamwork, problem-solving, and the confidence to innovate. We believe that with more effort and learning, our robot can evolve from a competition model into a practical tool for real-life applications. 
+<br><br>
+<b>Nova Team – always moving forward</b>
 </p>
