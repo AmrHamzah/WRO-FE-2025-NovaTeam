@@ -176,5 +176,5 @@ Our next steps will focus on turning our passion for robotics into solutions tha
 <br><br>
 This is only the beginning of our journey. With every challenge, we see an opportunity to grow and innovate. 
 <br><br>
-<b>Nova Team – Building today, imagining tomorrow 🚀</b>
+<b>Nova Team – Building today, imagining tomorrow</b>
 </p>
