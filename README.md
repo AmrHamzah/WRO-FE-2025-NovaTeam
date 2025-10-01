@@ -6,11 +6,12 @@
 <style>
   body { font-family:Verdana; line-height:1.5; }
   a { text-decoration:none; color:blue; }
-  h1, h2 { color:blue; text-decoration:none; }
+  h1, h2 { color:blue; text-decoration:none; margin-top:30px; }
   img { border-radius:10px; margin-bottom:10px; }
   .right-img { float:right; margin-left:20px; margin-bottom:20px; }
   pre, code { display:none; } /* يخفي أي كود يظهر فوق العناوين */
-  hr { border:none; border-top:1px solid #ccc; }
+  hr { border:none; border-top:1px solid #ccc; margin:20px 0; }
+  div.section { overflow:hidden; margin-bottom:30px; }
 </style>
 </head>
 <body>
@@ -89,7 +90,7 @@ We started with a ready-made kit and modified it to suit our task. For example, 
 
 <h1 id="hardware">Hardware</h1>
 
-<div>
+<div class="section">
 <h2>1- The Robot</h2>
 <p>
 We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
@@ -105,7 +106,7 @@ All connected with jumper wires.
 <img src="images/Servo.jpg" alt="Servo Motor" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>2- Kit Used</h2>
 <p>
 MG996 car model servo and DC motor<br>
@@ -114,7 +115,7 @@ Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpres
 </p>
 </div>
 
-<div>
+<div class="section">
 <h2>3- Microcontroller</h2>
 <p>
 Raspberry Pi 4 8GB RAM<br>
@@ -124,49 +125,49 @@ Cost: $92 <a href="https://a.aliexpress.com/_c2yjCN0B" target="_blank">AliExpres
 <img src="images/RaspberryPi.jpg" alt="Raspberry Pi" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>4- Battery</h2>
 <p>12.6V, 6A lithium battery<br>High voltage & capacity, adjustable output</p>
 <img src="images/Battery.jpg" alt="Battery" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>5- DC Power Converter</h2>
 <p>XL4015 (32V → 1.25V adjustable)<br>Easy to install<br>Cost: $1 <a href="https://a.aliexpress.com/_c38oxv2b" target="_blank">AliExpress</a></p>
 <img src="images/Converter.jpg" alt="DC Converter" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>6- Ultrasonic Sensors</h2>
 <p>3 × HC-SR04<br>Voltage: 3.3 to 5V<br>Range: 2cm to 400cm<br>Cost: $1 each <a href="https://a.aliexpress.com/_c2yngsHj" target="_blank">AliExpress</a></p>
 <img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>7- Motor Driver</h2>
 <p>L298N motor driver<br>Sufficient for our motors<br>Cost: $1.50 AliExpress</p>
 <img src="images/MotorDriver.jpg" alt="Motor Driver" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>8- Gyroscope</h2>
 <p>MPU-6050 gyroscope and accelerometer<br>Small, efficient, available<br>Cost: $2 AliExpress</p>
 <img src="images/Gyroscope.jpg" alt="Gyroscope" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>9- Camera</h2>
 <p>Ultra-wide USB camera<br>Better than Pi camera & easier to program</p>
 <img src="images/Camera.jpg" alt="Camera" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>10- Jumper Wires</h2>
 <p>Male to male, male to female, female to female<br>Strong, reusable, Raspberry Pi compatible<br>Cost: $3 AliExpress</p>
 <img src="images/JumperWires.jpg" alt="Jumper Wires" class="right-img" width="300">
 </div>
 
-<div>
+<div class="section">
 <h2>11- On/Off Button</h2>
 <p>Regular switch<br>Inexpensive and easy to install</p>
 <img src="images/OnOffButton.jpg" alt="On/Off Button" class="right-img" width="150">
@@ -175,7 +176,7 @@ Cost: $92 <a href="https://a.aliexpress.com/_c2yjCN0B" target="_blank">AliExpres
 <hr>
 
 <h1 id="software">Software</h1>
-<p>We programmed the robot using Python 3 on Linux (Raspberry Pi OS). Python was chosen for its large library support and flexibility. Libraries such as OpenCV were used for image processing, while GPIO libraries allowed us to control motors and sensors.</p>
+<p>We programmed the robot using Python3 on Linux (Raspberry Pi OS). Python was chosen for its large library support and flexibility. Libraries such as OpenCV were used for image processing, while GPIO libraries allowed us to control motors and sensors.</p>
 
 <hr>
 
