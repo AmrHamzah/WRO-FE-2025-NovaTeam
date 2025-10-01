@@ -1,6 +1,6 @@
 # Nova Team – WRO Future Engineers 2025
 
-![Banner](images/banner.jpg)
+![Banner](Images/banner.jpg)
 
 ## Table of Contents
 - [About Us](#about-us)
