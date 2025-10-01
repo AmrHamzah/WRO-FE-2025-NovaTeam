@@ -1,146 +1,224 @@
-# Nova Team – WRO Future Engineers 2025
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nova Team – WRO Future Engineers 2025</title>
+</head>
+<body style="font-family:Verdana; line-height:1.5;">
 
-![Banner](images/banner.jpg)
+<h1 style="font-family:Verdana; font-size:40px; color:blue;">Nova Team – WRO Future Engineers 2025</h1>
 
-## Table of Contents
-- [About Us](#about-us)
-- [Power and Sense Management](#power-and-sense-management)
-- [Obstacle Management](#obstacle-management)
-- [Engineering Factor](#engineering-factor)
-- [Hardware](#hardware)
-- [Software](#software)
-- [Experience and Acquired Expertise](#experience-and-acquired-expertise)
-- [Special Thanks](#special-thanks)
-- [Conclusion and Future Vision](#conclusion-and-future-vision)
+<!-- Banner -->
+<img src="images/banner.jpg" alt="Nova Team Banner" width="600" style="border-radius:10px; margin-bottom:20px;">
 
----
+<hr>
 
-## About Us
+<h1 style="font-family:Verdana; color:blue;">Table of Contents</h1>
+<ul style="font-family:Verdana;">
+  <li><a href="#about-us">About Us</a></li>
+  <li><a href="#power">Power and Sense Management</a></li>
+  <li><a href="#obstacle">Obstacle Management</a></li>
+  <li><a href="#engineering">Engineering Factor</a></li>
+  <li><a href="#hardware">Hardware</a></li>
+  <li><a href="#software">Software</a></li>
+  <li><a href="#experience">Experience and Acquired Expertise</a></li>
+  <li><a href="#special-thanks">Special Thanks</a></li>
+  <li><a href="#conclusion">Conclusion and Future Vision</a></li>
+</ul>
 
+<hr>
+
+<h1 id="about-us" style="font-family:Verdana; color:blue;">About Us</h1>
+<p>
 We are a team of three 15-year-old Palestinians who built and programmed a robot capable of traversing a specific path in WRO.
+</p>
 
-| Member | Instagram | Photo |
-|--------|----------|-------|
-| **Amr Younis** | [amr.younis04](https://www.instagram.com/amr.younis04) | ![Amr](images/Robot.jpg) |
-| **Mohammad Abu Laban** | [mo_abu_lab](https://www.instagram.com/mo_abu_lab) | ![Mohammad](images/Robot.jpg) |
-| **Ibrahim Mummar** | [lbrameem_mum](https://www.instagram.com/lbrameem_mum) | ![Ibrahim](images/Robot.jpg) |
+<h2 style="font-family:Verdana; color:blue;">Amr Younis</h2>
+<p>Instagram: <a href="https://www.instagram.com/amr.younis04" target="_blank">amr.younis04</a></p>
 
-This path consists of a white carpet with two lines in each corner, as well as an orange line and a blue line. The carpet measures three meters long and three meters wide, surrounded by a 10-cm-high black wooden wall, with a 10-cm-high square black wooden wall in the middle of the carpet.
+<h2 style="font-family:Verdana; color:blue;">Mohammad Abu Laban</h2>
+<p>Instagram: <a href="https://www.instagram.com/mo_abu_lab" target="_blank">mo_abu_lab</a></p>
 
----
+<h2 style="font-family:Verdana; color:blue;">Ibrahim Mummar</h2>
+<p>Instagram: <a href="https://www.instagram.com/lbrameem_mum" target="_blank">lbrameem_mum</a></p>
 
-## Power and Sense Management
+<p>
+The path consists of a white carpet with two lines in each corner, as well as an orange line and a blue line. The carpet measures three meters long and three meters wide, surrounded by a 10-cm-high black wooden wall, with a 10-cm-high square black wooden wall in the middle of the carpet.
+</p>
 
+<hr>
+
+<h1 id="power" style="font-family:Verdana; color:blue;">Power and Sense Management</h1>
+<p>
 We used a 12.6V, 6A rechargeable lithium battery. It provides enough capacity to power all components, with correct distribution so no single part consumes more than its share.
+</p>
 
-![Battery](images/Battery.jpg)
+<hr>
 
----
+<h1 id="obstacle" style="font-family:Verdana; color:blue;">Obstacle Management</h1>
+<p>
+The robot deals with obstacles using ultrasonic sensors and a camera.
+</p>
+<p>
+Ultrasonic technology measures the distance between obstacles and the robot, enabling it to adjust its direction.
+</p>
+<p>
+The camera recognizes colors and sends a signal to the Raspberry Pi. For example, when detecting red, the robot reacts according to the programmed instructions.
+</p>
 
-## Obstacle Management
+<hr>
 
-The robot deals with obstacles using ultrasonic sensors and a camera.  
-
-- Ultrasonic technology measures the distance between obstacles and the robot, enabling it to adjust its direction.  
-- The camera recognizes colors and sends a signal to the Raspberry Pi. For example, when detecting red, the robot reacts according to the programmed instructions.
-
-![Ultrasonic Sensor](images/Ultrasonic.jpg)
-
----
-
-## Engineering Factor
-
+<h1 id="engineering" style="font-family:Verdana; color:blue;">Engineering Factor</h1>
+<p>
 We started with a ready-made kit and modified it to suit our task. We added additional layers to contain all the parts and ensured balanced weight distribution, placing the battery in the middle to prevent tilting.
+</p>
 
-![Robot Layers](images/Robot.jpg)
+<hr>
 
----
+<h1 id="hardware" style="font-family:Verdana; color:blue;">Hardware</h1>
 
-## Hardware
+<h2 style="font-family:Verdana; color:blue;">1- Ground Layer</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>DC motor and MG996 servo motor</p>
+</td>
+<td>
+<img src="images/DC_Motor.jpg" alt="DC Motor" width="200" style="border-radius:10px; float:right; margin-bottom:10px;">
+<img src="images/Servo.jpg" alt="Servo Motor" width="200" style="border-radius:10px; float:right; margin-bottom:10px;">
+</td>
+</tr>
+</table>
 
-### 1- The Robot
-We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
+<h2 style="font-family:Verdana; color:blue;">2- Battery Layer</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>12.6V, 6A lithium battery</p>
+</td>
+<td>
+<img src="images/Battery.jpg" alt="Battery" width="200" style="border-radius:10px; float:right; margin-bottom:10px;">
+</td>
+</tr>
+</table>
 
-- Ground layer: DC motor and servo motor
-- Second layer: Battery
-- Third layer: Power button and power regulation circuit
-- Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera and motor driver
+<h2 style="font-family:Verdana; color:blue;">3- Power Converter</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>XL4015 (32V → 1.25V adjustable)</p>
+</td>
+<td>
+<img src="images/Converter.jpg" alt="DC Converter" width="200" style="border-radius:10px; float:right; margin-bottom:10px;">
+</td>
+</tr>
+</table>
 
-All connected with jumper wires.
+<h2 style="font-family:Verdana; color:blue;">4- Ultrasonic Sensors</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>3 × HC-SR04 ultrasonic sensors</p>
+</td>
+<td>
+<img src="images/Ultrasonic1.jpg" alt="Ultrasonic Sensor 1" width="150" style="border-radius:10px; float:right; margin-bottom:5px;">
+<img src="images/Ultrasonic2.jpg" alt="Ultrasonic Sensor 2" width="150" style="border-radius:10px; float:right; margin-bottom:5px;">
+<img src="images/Ultrasonic3.jpg" alt="Ultrasonic Sensor 3" width="150" style="border-radius:10px; float:right; margin-bottom:5px;">
+</td>
+</tr>
+</table>
 
-### 2- Kit Used
-MG996 car model servo and DC motor. Available in Palestine and suitable for our task.  
-Cost: $95 [AliExpress](https://a.aliexpress.com/_c3kFLPlv)  
+<h2 style="font-family:Verdana; color:blue;">5- Motor Driver</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>L298N motor driver</p>
+</td>
+<td>
+<img src="images/MotorDriver.jpg" alt="Motor Driver" width="200" style="border-radius:10px; float:right; margin-bottom:10px;">
+</td>
+</tr>
+</table>
 
-### 3- Microcontroller
-Raspberry Pi 4 8GB RAM. Fast CPU, Python support, available locally.  
-Cost: $92 [AliExpress](https://a.aliexpress.com/_c2yjCN0B)  
+<h2 style="font-family:Verdana; color:blue;">6- Gyroscope</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>MPU-6050 gyroscope and accelerometer</p>
+</td>
+<td>
+<img src="images/Gyroscope.jpg" alt="Gyroscope" width="200" style="border-radius:10px; float:right; margin-bottom:10px;">
+</td>
+</tr>
+</table>
 
-### 4- Battery
-12.6V, 6A lithium battery. High voltage & capacity, adjustable output.
+<h2 style="font-family:Verdana; color:blue;">7- Camera</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>Ultra-wide USB camera</p>
+</td>
+<td>
+<img src="images/Camera.jpg" alt="Camera" width="200" style="border-radius:10px; float:right; margin-bottom:10px;">
+</td>
+</tr>
+</table>
 
-### 5- DC Power Converter
-XL4015 (32V → 1.25V adjustable). Easy to install.  
-Cost: $1 [AliExpress](https://a.aliexpress.com/_c38oxv2b)  
+<h2 style="font-family:Verdana; color:blue;">8- Jumper Wires</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>Male to male, male to female, female to female, reusable</p>
+</td>
+<td>
+<img src="images/JumperWires.jpg" alt="Jumper Wires" width="200" style="border-radius:10px; float:right; margin-bottom:10px;">
+</td>
+</tr>
+</table>
 
-### 6- Ultrasonic Sensors
-3 × HC-SR04. Voltage: 3.3 to 5V, range: 2cm to 400cm.  
-Cost: $1 each [AliExpress](https://a.aliexpress.com/_c38oxv2b)  
+<h2 style="font-family:Verdana; color:blue;">9- On/Off Button</h2>
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+<p>Regular switch</p>
+</td>
+<td>
+<img src="images/OnOffButton.jpg" alt="On/Off Button" width="150" style="border-radius:10px; float:right; margin-bottom:10px;">
+</td>
+</tr>
+</table>
 
-### 7- Motor Driver
-L298N motor driver. Sufficient for our motors.  
-Cost: $1.50 [AliExpress](https://a.aliexpress.com/_c38oxv2b)  
+<hr>
 
-### 8- Gyroscope
-MPU-6050 gyroscope and accelerometer. Small, efficient, available.  
-Cost: $2 [AliExpress](https://a.aliexpress.com/_c38oxv2b)  
+<h1 id="software" style="font-family:Verdana; color:blue;">Software</h1>
+<p>
+We programmed the robot using Python 3 on Linux. Python libraries like OpenCV and GPIO allowed us to integrate computer vision and control motors & sensors effectively.
+</p>
 
-### 9- Camera
-Ultra-wide USB camera. Better than Pi camera & easier to program.
+<hr>
 
-### 10- Jumper Wires
-Male to male, male to female, female to female. Strong, reusable, Raspberry Pi compatible.  
-Cost: $3 [AliExpress](https://a.aliexpress.com/_c38oxv2b)  
+<h1 id="experience" style="font-family:Verdana; color:blue;">Experience and Acquired Expertise</h1>
+<p>
+We gained teamwork, problem-solving, and technical skills in both programming and hardware.<br>
+We developed expertise in sensor integration, motor control, and computer vision for robotics.
+</p>
 
-### 11- On/Off Button
-Regular switch, inexpensive and easy to install.
+<hr>
 
----
+<h1 id="special-thanks" style="font-family:Verdana; color:blue;">Special Thanks</h1>
+<p>
+Engineer Wissam Nasriyah – guidance from zero to hero.<br>
+Engineer Mohammed Dababseh and Supervisor Abeer Mosa – valuable support.
+</p>
 
-## Software
+<hr>
 
-- Language: Python 3, main Raspberry Pi language, large library support, big community.  
-- Operating System: Linux compatible with our Raspberry Pi version, includes all libraries and programming tools.
+<h1 id="conclusion" style="font-family:Verdana; color:blue;">Conclusion and Future Vision</h1>
+<p>
+This project was about building a robot and proving what motivated students can achieve.<br>
+Next, we aim to expand into real-world robotics solutions to help people daily.<br>
+<b>Nova Team – Building today, imagining tomorrow 🚀</b>
+</p>
 
-![Software](images/Software.jpg)
-
----
-
-## Experience and Acquired Expertise
-
-We gained valuable skills:
-
-- Team spirit, cooperation, and shared decision-making.  
-- Problem-solving in programming and hardware.  
-- Overcoming obstacles in our first robotics project.
-
-Advanced technical expertise:
-
-- Developing intelligent systems based on computer vision and integrating multiple sensors to increase robot awareness of the surrounding environment.  
-- Developing an integrated vehicle based on open source components, including motors, sensors, and electromechanical control systems, with the ability to be modified and continuously developed to enhance performance and reliability.
-
----
-
-## Special Thanks
-
-Engineer Wissam Nasriyah – guidance from zero to hero.  
-Engineer Mohammed Dababseh and Supervisor Abeer Mosa – valuable support in several tasks.
-
----
-
-## Conclusion and Future Vision
-
-This project was about building a robot and proving what motivated students can achieve.  
-Next, we aim to expand into real-world robotics solutions to help people daily.  
-
-**Nova Team – Building today, imagining tomorrow**
+</body>
+</html>
