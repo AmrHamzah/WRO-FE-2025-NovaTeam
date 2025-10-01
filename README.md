@@ -74,7 +74,7 @@ We started with a ready-made kit and modified it to suit our task. For example, 
     All connected with jumper wires.
   </p>
 
-  <img src="images/Kit.jpg" alt="Robot Kit" width="250" style="float:right; margin-left:15px;">
+  <img src="Images/Robot.jpg" alt="Robot" width="250" style="float:right; margin-left:15px;">
 </div>
 <!-- الصور على اليمين -->
 <h2 style="font-family:Verdana; color:blue;">2- Kit Used</h2>
