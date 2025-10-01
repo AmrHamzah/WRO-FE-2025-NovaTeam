@@ -72,14 +72,8 @@ We modified a ready-made kit by adding one acrylic layer and two plastic layers,
 </ul>
 <p style="font-family:Verdana;">
 All connected with jumper wires.
+<img src="images/Kit.jpg" alt="Robot Kit" width="250" style="float:right; margin-left:15px;">
 </p>
-
-<table>
-<tr>
-<td>
-<!-- النص يظل على اليسار -->
-</td>
-<td>
 <!-- الصور على اليمين -->
 <h2 style="font-family:Verdana; color:blue;">2- Kit Used</h2>
 <p style="font-family:Verdana;">
