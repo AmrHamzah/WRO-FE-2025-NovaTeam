@@ -90,8 +90,7 @@ We modified a ready-made kit by adding one acrylic layer and two plastic layers,
 <p style="font-family:Verdana;">
 All connected with jumper wires.
 </p>
-<img src="images/Motor.jpg" alt="Motor" style="width:300px;">
-<img src="images/Servo.jpg" alt="Servo Motor" style="width:300px;">
+<img src="images/Robot.jpg" alt="Motor" style="width:300px;">
 
 <h2 style="font-family:Verdana; color:blue;">2- Kit Used</h2>
 <p style="font-family:Verdana;">
