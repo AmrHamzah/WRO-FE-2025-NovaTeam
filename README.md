@@ -46,7 +46,6 @@ We used a 12.6-volt, 6A rechargeable lithium battery. It’s a medium-weight bat
 </td>
 <td>
 
-<img src="images/Battery.jpg" alt="Battery" width="200">
 
 </td>
 </tr>
@@ -69,8 +68,6 @@ The camera recognizes colors and sends a signal to the Raspberry Pi. For example
 </td>
 <td>
 
-<img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" width="200"><br>
-<img src="images/Camera.jpg" alt="Camera" width="200">
 
 </td>
 </tr>
