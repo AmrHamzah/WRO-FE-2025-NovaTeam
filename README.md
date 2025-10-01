@@ -51,7 +51,6 @@ We are pleased to introduce our project, which involves building and programming
 We used a 12.6-volt, 6A rechargeable lithium battery. It’s a medium-weight battery with large capacity, sufficient for all components. We distributed the power correctly so that no single component consumes more than its share.
 </p>
 
-<img src="images/Battery.jpg" alt="Lithium Battery" style="width:300px;">
 
 <hr>
 
@@ -66,8 +65,6 @@ Ultrasonic technology measures the distance between the obstacle and the robot, 
 The camera recognizes colors and sends a signal to the Raspberry Pi. For example, when detecting red, the robot reacts according to the instructions we programmed.
 </p>
 
-<img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" style="width:300px;">
-<img src="images/Camera.jpg" alt="Camera" style="width:300px;">
 
 <hr>
 
