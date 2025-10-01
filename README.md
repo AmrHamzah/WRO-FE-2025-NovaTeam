@@ -140,7 +140,7 @@ Cost: $1 each <a href="https://a.aliexpress.com/_c3gyMqNp" target="_blank">AliEx
 <p style="font-family:Verdana;">
 L298N motor driver<br>
 Sufficient for our motors<br>
-Cost: $1.50 <a href="https://www.aliexpress.com/item/32961767250.html" target="_blank">AliExpress</a>
+Cost: $1.50 <a href="https://a.aliexpress.com/_c4BxRCor.html" target="_blank">AliExpress</a>
 </p>
 <img src="images/MotorDriver.jpg" alt="Motor Driver" width="200">
 
