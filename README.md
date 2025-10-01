@@ -110,7 +110,7 @@ Raspberry Pi 4 8GB RAM<br>
 Fast CPU, Python support, and available locally<br>
 Cost: $92 <a href="https://www.aliexpress.com/item/1005001866255360.html" target="_blank">AliExpress</a>
 </p>
-<img src="Images/RaspberryPi.jpg" alt="Raspberry Pi" width="200">
+<img src="Images/RaspberryPi.jpg" alt="Raspberry Pi" width="250">
 
 <h2 style="font-family:Verdana; color:blue;">4- Battery</h2>
 <p style="font-family:Verdana;">
@@ -125,7 +125,7 @@ XL4015 (32V → 1.25V adjustable)<br>
 Easy to install<br>
 Cost: $1 <a href="https://www.aliexpress.com/item/32824713057.html" target="_blank">AliExpress</a>
 </p>
-<img src="Images/Converter.jpg" alt="DC Converter" width="200">
+<img src="Images/Converter.jpg" alt="DC Converter" width="250">
 
 <h2 style="font-family:Verdana; color:blue;">6- Ultrasonic Sensors</h2>
 <p style="font-family:Verdana;">
@@ -167,7 +167,7 @@ Male to male, male to female, female to female<br>
 Strong, reusable, Raspberry Pi compatible<br>
 Cost: $3 <a href="https://www.aliexpress.com/item/32722114256.html" target="_blank">AliExpress</a>
 </p>
-<img src="Images/JumperWires.jpg" alt="Jumper Wires" width="200">
+<img src="Images/JumperWires.jpg" alt="Jumper Wires" width="250">
 
 <h2 style="font-family:Verdana; color:blue;">11- On/Off Button</h2>
 <p style="font-family:Verdana;">
