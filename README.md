@@ -5,11 +5,12 @@
 <title>Nova Team – WRO Future Engineers 2025</title>
 <style>
   body { font-family:Verdana; line-height:1.5; }
-  a { text-decoration:none; color:blue; } /* يلغي أي خط تحت الروابط */
-  h1, h2 { color:blue; text-decoration:none; } /* يلغي أي خط تحت العناوين */
-  code, pre { display:none; } /* يخفي أي صندوق كود */
+  a { text-decoration:none; color:blue; }
+  h1, h2 { color:blue; text-decoration:none; }
   img { border-radius:10px; margin-bottom:10px; }
   .right-img { float:right; margin-left:20px; margin-bottom:20px; }
+  pre, code { display:none; } /* يخفي أي كود يظهر فوق العناوين */
+  hr { border:none; border-top:1px solid #ccc; }
 </style>
 </head>
 <body>
@@ -65,7 +66,7 @@ We are pleased to introduce our project, which involves building and programming
 We used a 12.6-volt, 6A rechargeable lithium battery. It’s a medium-weight battery with large capacity, sufficient for all components. We distributed the power correctly so that no single component consumes more than its share.
 </p>
 
-<img src="images/Battery.jpg" alt="Lithium Battery" class="right-img">
+<img src="images/Battery.jpg" alt="Lithium Battery" class="right-img" width="300">
 
 <hr>
 
@@ -74,8 +75,8 @@ We used a 12.6-volt, 6A rechargeable lithium battery. It’s a medium-weight bat
 <p>Ultrasonic technology measures the distance between the obstacle and the robot, enabling it to adjust its direction. It works by sending out sound waves and measuring their bounce.</p>
 <p>The camera recognizes colors and sends a signal to the Raspberry Pi. For example, when detecting red, the robot reacts according to the instructions we programmed.</p>
 
-<img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" class="right-img">
-<img src="images/Camera.jpg" alt="Camera" class="right-img">
+<img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" class="right-img" width="300">
+<img src="images/Camera.jpg" alt="Camera" class="right-img" width="300">
 
 <hr>
 
@@ -88,10 +89,8 @@ We started with a ready-made kit and modified it to suit our task. For example, 
 
 <h1 id="hardware">Hardware</h1>
 
+<div>
 <h2>1- The Robot</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>
 We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
 <ul>
@@ -102,132 +101,76 @@ We modified a ready-made kit by adding one acrylic layer and two plastic layers,
 </ul>
 All connected with jumper wires.
 </p>
-</td>
-<td>
-<img src="images/Motor.jpg" alt="Motor" width="300" class="right-img">
-<img src="images/Servo.jpg" alt="Servo Motor" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/Motor.jpg" alt="Motor" class="right-img" width="300">
+<img src="images/Servo.jpg" alt="Servo Motor" class="right-img" width="300">
+</div>
 
+<div>
 <h2>2- Kit Used</h2>
 <p>
 MG996 car model servo and DC motor<br>
 Available in Palestine and suitable for our task<br>
 Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpress</a>
 </p>
+</div>
 
+<div>
 <h2>3- Microcontroller</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>
 Raspberry Pi 4 8GB RAM<br>
 Fast CPU, Python support, and available locally<br>
 Cost: $92 <a href="https://a.aliexpress.com/_c2yjCN0B" target="_blank">AliExpress</a>
 </p>
-</td>
-<td>
-<img src="images/RaspberryPi.jpg" alt="Raspberry Pi" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/RaspberryPi.jpg" alt="Raspberry Pi" class="right-img" width="300">
+</div>
 
+<div>
 <h2>4- Battery</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>12.6V, 6A lithium battery<br>High voltage & capacity, adjustable output</p>
-</td>
-<td>
-<img src="images/Battery.jpg" alt="Battery" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/Battery.jpg" alt="Battery" class="right-img" width="300">
+</div>
 
+<div>
 <h2>5- DC Power Converter</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>XL4015 (32V → 1.25V adjustable)<br>Easy to install<br>Cost: $1 <a href="https://a.aliexpress.com/_c38oxv2b" target="_blank">AliExpress</a></p>
-</td>
-<td>
-<img src="images/Converter.jpg" alt="DC Converter" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/Converter.jpg" alt="DC Converter" class="right-img" width="300">
+</div>
 
+<div>
 <h2>6- Ultrasonic Sensors</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>3 × HC-SR04<br>Voltage: 3.3 to 5V<br>Range: 2cm to 400cm<br>Cost: $1 each <a href="https://a.aliexpress.com/_c2yngsHj" target="_blank">AliExpress</a></p>
-</td>
-<td>
-<img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" class="right-img" width="300">
+</div>
 
+<div>
 <h2>7- Motor Driver</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>L298N motor driver<br>Sufficient for our motors<br>Cost: $1.50 AliExpress</p>
-</td>
-<td>
-<img src="images/MotorDriver.jpg" alt="Motor Driver" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/MotorDriver.jpg" alt="Motor Driver" class="right-img" width="300">
+</div>
 
+<div>
 <h2>8- Gyroscope</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>MPU-6050 gyroscope and accelerometer<br>Small, efficient, available<br>Cost: $2 AliExpress</p>
-</td>
-<td>
-<img src="images/Gyroscope.jpg" alt="Gyroscope" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/Gyroscope.jpg" alt="Gyroscope" class="right-img" width="300">
+</div>
 
+<div>
 <h2>9- Camera</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>Ultra-wide USB camera<br>Better than Pi camera & easier to program</p>
-</td>
-<td>
-<img src="images/Camera.jpg" alt="Camera" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/Camera.jpg" alt="Camera" class="right-img" width="300">
+</div>
 
+<div>
 <h2>10- Jumper Wires</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>Male to male, male to female, female to female<br>Strong, reusable, Raspberry Pi compatible<br>Cost: $3 AliExpress</p>
-</td>
-<td>
-<img src="images/JumperWires.jpg" alt="Jumper Wires" width="300" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/JumperWires.jpg" alt="Jumper Wires" class="right-img" width="300">
+</div>
 
+<div>
 <h2>11- On/Off Button</h2>
-<table>
-<tr>
-<td style="vertical-align:top; padding-right:20px;">
 <p>Regular switch<br>Inexpensive and easy to install</p>
-</td>
-<td>
-<img src="images/OnOffButton.jpg" alt="On/Off Button" width="150" class="right-img">
-</td>
-</tr>
-</table>
+<img src="images/OnOffButton.jpg" alt="On/Off Button" class="right-img" width="150">
+</div>
 
 <hr>
 
