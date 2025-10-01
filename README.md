@@ -117,7 +117,7 @@ Cost: $92 <a href="https://www.aliexpress.com/item/1005001866255360.html" target
 12.6V, 6A lithium battery<br>
 High voltage & capacity, adjustable output
 </p>
-<img src="images/Battery.jpg" alt="Battery" width="200">
+<img src="Images/Battery.jpg" alt="Battery" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">5- DC Power Converter</h2>
 <p style="font-family:Verdana;">
@@ -125,7 +125,7 @@ XL4015 (32V → 1.25V adjustable)<br>
 Easy to install<br>
 Cost: $1 <a href="https://www.aliexpress.com/item/32824713057.html" target="_blank">AliExpress</a>
 </p>
-<img src="images/Converter.jpg" alt="DC Converter" width="200">
+<img src="Images/Converter.jpg" alt="DC Converter" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">6- Ultrasonic Sensors</h2>
 <p style="font-family:Verdana;">
@@ -134,7 +134,7 @@ Voltage: 3.3 to 5V<br>
 Range: 2cm to 400cm<br>
 Cost: $1 each <a href="https://a.aliexpress.com/_c3gyMqNp" target="_blank">AliExpress</a>
 </p>
-<img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" width="200">
+<img src="Images/Ultrasonic.jpg" alt="Ultrasonic Sensor" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">7- Motor Driver</h2>
 <p style="font-family:Verdana;">
@@ -152,14 +152,14 @@ Small, efficient, available<br>
 Cost: $1.60 <a href="https://a.aliexpress.com/_c4rTkJNN" target="_blank">AliExpress</a>
 </p>
 
-<img src="images/Gyroscope.jpg" alt="Gyroscope" width="200">
+<img src="Images/Gyroscope.jpg" alt="Gyroscope" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">9- Camera</h2>
 <p style="font-family:Verdana;">
 Ultra-wide USB camera<br>
 Better than Pi camera & easier to program
 </p>
-<img src="images/Camera.jpg" alt="Camera" width="200">
+<img src="Images/Camera.jpg" alt="Camera" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">10- Jumper Wires</h2>
 <p style="font-family:Verdana;">
@@ -176,7 +176,7 @@ Inexpensive and easy to install<br>
 Cost: $5 <a href="https://a.aliexpress.com/_c3wrhjtl" target="_blank">AliExpress</a>
 </p>
 
-<img src="images/OnOffButton.jpg" alt="On/Off Button" width="150">
+<img src="Images/OnOffButton.jpg" alt="On/Off Button" width="150">
 ---
 
 ## Software
