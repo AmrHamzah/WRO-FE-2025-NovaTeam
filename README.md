@@ -80,110 +80,113 @@ The camera recognizes colors and sends a signal to the Raspberry Pi. For example
 We started with a ready-made kit and modified it to suit our task. For example, we added additional layers to contain all the parts and ensured balanced weight distribution, placing the battery in the middle to prevent tilting.
 
 ---
+<hr>
 
-## Hardware
+<h1 id="hardware" style="font-family:Verdana; color:blue;">Hardware</h1>
 
-### 1- The Robot
-
+<h2 style="font-family:Verdana; color:blue;">1- The Robot</h2>
+<p style="font-family:Verdana;">
 We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
-
-- Ground layer: DC motor and servo motor
-- Second layer: Battery
-- Third layer: Power button and power regulation circuit
-- Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera and motor driver
-
+</p>
+<ul style="font-family:Verdana;">
+  <li>Ground layer: DC motor and servo motor</li>
+  <li>Second layer: Battery</li>
+  <li>Third layer: Power button and power regulation circuit</li>
+  <li>Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera and motor driver</li>
+</ul>
+<p style="font-family:Verdana;">
 All connected with jumper wires.
+</p>
 
 <table>
 <tr>
 <td>
-
+<!-- النص يظل على اليسار -->
 </td>
 <td>
-
+<!-- الصور على اليمين -->
 <img src="images/Motor.jpg" alt="Motor" width="200"><br>
 <img src="images/Servo.jpg" alt="Servo Motor" width="200">
-
 </td>
 </tr>
 </table>
 
-### 2- Kit Used
+<h2 style="font-family:Verdana; color:blue;">2- Kit Used</h2>
+<p style="font-family:Verdana;">
+MG996 car model servo and DC motor<br>
+Available in Palestine and suitable for our task<br>
+Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpress</a>
+</p>
 
-MG996 car model servo and DC motor  
-Available in Palestine and suitable for our task  
-Cost: $95 [AliExpress](https://a.aliexpress.com/_c3kFLPlv)
-
-### 3- Microcontroller
-
-Raspberry Pi 4 8GB RAM  
-Fast CPU, Python support, and available locally  
-Cost: $92 [AliExpress](https://a.aliexpress.com/_c2yjCN0B)
-
+<h2 style="font-family:Verdana; color:blue;">3- Microcontroller</h2>
+<p style="font-family:Verdana;">
+Raspberry Pi 4 8GB RAM<br>
+Fast CPU, Python support, and available locally<br>
+Cost: $92 <a href="https://www.aliexpress.com/item/1005001866255360.html" target="_blank">AliExpress</a>
+</p>
 <img src="images/RaspberryPi.jpg" alt="Raspberry Pi" width="200">
 
-### 4- Battery
-
-12.6V, 6A lithium battery  
+<h2 style="font-family:Verdana; color:blue;">4- Battery</h2>
+<p style="font-family:Verdana;">
+12.6V, 6A lithium battery<br>
 High voltage & capacity, adjustable output
-
+</p>
 <img src="images/Battery.jpg" alt="Battery" width="200">
 
-### 5- DC Power Converter
-
-XL4015 (32V → 1.25V adjustable)  
-Easy to install  
-Cost: $1 [AliExpress](https://a.aliexpress.com/_c38oxv2b)
-
+<h2 style="font-family:Verdana; color:blue;">5- DC Power Converter</h2>
+<p style="font-family:Verdana;">
+XL4015 (32V → 1.25V adjustable)<br>
+Easy to install<br>
+Cost: $1 <a href="https://www.aliexpress.com/item/32824713057.html" target="_blank">AliExpress</a>
+</p>
 <img src="images/Converter.jpg" alt="DC Converter" width="200">
 
-### 6- Ultrasonic Sensors
-
-3 × HC-SR04  
-Voltage: 3.3 to 5V  
-Range: 2cm to 400cm  
-Cost: $1 each [AliExpress](https://a.aliexpress.com/_c2yngsHj)
-
+<h2 style="font-family:Verdana; color:blue;">6- Ultrasonic Sensors</h2>
+<p style="font-family:Verdana;">
+3 × HC-SR04<br>
+Voltage: 3.3 to 5V<br>
+Range: 2cm to 400cm<br>
+Cost: $1 each <a href="https://a.aliexpress.com/_c3gyMqNp" target="_blank">AliExpress</a>
+</p>
 <img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" width="200">
 
-### 7- Motor Driver
-
-L298N motor driver  
-Sufficient for our motors  
-Cost: $1.50 AliExpress
-
+<h2 style="font-family:Verdana; color:blue;">7- Motor Driver</h2>
+<p style="font-family:Verdana;">
+L298N motor driver<br>
+Sufficient for our motors<br>
+Cost: $1.50 <a href="https://www.aliexpress.com/item/32961767250.html" target="_blank">AliExpress</a>
+</p>
 <img src="images/MotorDriver.jpg" alt="Motor Driver" width="200">
 
-### 8- Gyroscope
-
-MPU-6050 gyroscope and accelerometer  
-Small, efficient, available  
-Cost: $2 AliExpress
-
+<h2 style="font-family:Verdana; color:blue;">8- Gyroscope</h2>
+<p style="font-family:Verdana;">
+MPU-6050 gyroscope and accelerometer<br>
+Small, efficient, available<br>
+Cost: $2 <a href="https://www.aliexpress.com/item/32722114256.html" target="_blank">AliExpress</a>
+</p>
 <img src="images/Gyroscope.jpg" alt="Gyroscope" width="200">
 
-### 9- Camera
-
-Ultra-wide USB camera  
+<h2 style="font-family:Verdana; color:blue;">9- Camera</h2>
+<p style="font-family:Verdana;">
+Ultra-wide USB camera<br>
 Better than Pi camera & easier to program
-
+</p>
 <img src="images/Camera.jpg" alt="Camera" width="200">
 
-### 10- Jumper Wires
-
-Male to male, male to female, female to female  
-Strong, reusable, Raspberry Pi compatible  
-Cost: $3 AliExpress
-
+<h2 style="font-family:Verdana; color:blue;">10- Jumper Wires</h2>
+<p style="font-family:Verdana;">
+Male to male, male to female, female to female<br>
+Strong, reusable, Raspberry Pi compatible<br>
+Cost: $3 <a href="https://www.aliexpress.com/item/32722114256.html" target="_blank">AliExpress</a>
+</p>
 <img src="images/JumperWires.jpg" alt="Jumper Wires" width="200">
 
-### 11- On/Off Button
-
-Regular switch  
+<h2 style="font-family:Verdana; color:blue;">11- On/Off Button</h2>
+<p style="font-family:Verdana;">
+Regular switch<br>
 Inexpensive and easy to install
-
+</p>
 <img src="images/OnOffButton.jpg" alt="On/Off Button" width="150">
-
 ---
 
 ## Software
