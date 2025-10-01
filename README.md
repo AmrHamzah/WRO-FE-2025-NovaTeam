@@ -81,11 +81,6 @@ All connected with jumper wires.
 </td>
 <td>
 <!-- الصور على اليمين -->
-<img src="Images/Robot.jpg" alt="Robot" width="250"><br>
-</td>
-</tr>
-</table>
-
 <h2 style="font-family:Verdana; color:blue;">2- Kit Used</h2>
 <p style="font-family:Verdana;">
 MG996 car model servo and DC motor<br>
