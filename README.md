@@ -34,30 +34,13 @@ Instagram: [lbrameem_mum](https://www.instagram.com/lbrameem_mum)
 We are pleased to introduce our project, which involves building and programming a robot capable of traversing a specific path. This path consists of a white carpet with two lines in each corner, as well as an orange line and a blue line. The carpet measures three meters long and three meters wide, surrounded by a 10-cm-high black wooden wall, with a 10-cm-high square black wooden wall in the middle of the carpet.
 
 ---
-
 ## Power and Sense Management
 
-<table>
-<tr>
-<td>
-
 We used a 12.6-volt, 6A rechargeable lithium battery. It’s a medium-weight battery with large capacity, sufficient for all components. We distributed the power correctly so that no single component consumes more than its share.
-
-</td>
-<td>
-
-
-</td>
-</tr>
-</table>
 
 ---
 
 ## Obstacle Management
-
-<table>
-<tr>
-<td>
 
 The robot deals with obstacles using ultrasonic sensors and a camera.
 
@@ -65,19 +48,13 @@ Ultrasonic technology measures the distance between the obstacle and the robot, 
 
 The camera recognizes colors and sends a signal to the Raspberry Pi. For example, when detecting red, the robot reacts according to the instructions we programmed.
 
-</td>
-<td>
-
-
-</td>
-</tr>
-</table>
-
 ---
 
 ## Engineering Factor
 
 We started with a ready-made kit and modified it to suit our task. For example, we added additional layers to contain all the parts and ensured balanced weight distribution, placing the battery in the middle to prevent tilting.
+
+
 
 ---
 <hr>
