@@ -149,8 +149,9 @@ Cost: $1.50 <a href="https://a.aliexpress.com/_c4BxRCor" target="_blank">AliExpr
 <p style="font-family:Verdana;">
 MPU-6050 gyroscope and accelerometer<br>
 Small, efficient, available<br>
-Cost: $2 <a href="https://www.aliexpress.com/item/32722114256.html" target="_blank">AliExpress</a>
+Cost: $1.60 <a href="https://a.aliexpress.com/_c4rTkJNN" target="_blank">AliExpress</a>
 </p>
+
 <img src="images/Gyroscope.jpg" alt="Gyroscope" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">9- Camera</h2>
