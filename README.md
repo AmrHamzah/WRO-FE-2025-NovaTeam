@@ -23,7 +23,7 @@ We are a team of three members:
 A fifteen-year-old Palestinian.  
 Instagram: [amr.younis04](https://www.instagram.com/amr.younis04)
 
-### Mohammad Abu Laban
+### Mohammad Abulaban
 A fifteen-year-old Palestinian.  
 Instagram: [mo_abu_lab](https://www.instagram.com/mo_abu_lab)
 
