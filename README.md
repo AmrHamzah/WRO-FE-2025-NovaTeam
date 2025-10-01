@@ -1,12 +1,21 @@
 <h1 style="font-family:Verdana; font-size:40px; color:blue;">Nova Team – WRO Future Engineers 2025</h1>
 
 <!-- Banner -->
-<img src="images/banner.jpg" alt="Nova Team Banner" style="width:100%; max-width:800px;">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <p>Welcome to our official GitHub page for the WRO Future Engineers 2025 competition!</p>
+  </div>
+  <div>
+    <img src="images/banner.jpg" alt="Nova Team Banner" width="400" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
-<h2 style="font-family:Verdana; color:blue;">Table of Contents</h2>
+<hr>
+
+<h1 style="font-family:Verdana; color:blue;">Table of Contents</h1>
 <ul style="font-family:Verdana;">
   <li><a href="#about-us">About Us</a></li>
-  <li><a href="#power-sense">Power and Sense Management</a></li>
+  <li><a href="#power">Power and Sense Management</a></li>
   <li><a href="#obstacle">Obstacle Management</a></li>
   <li><a href="#engineering">Engineering Factor</a></li>
   <li><a href="#hardware">Hardware</a></li>
@@ -15,201 +24,160 @@
   <li><a href="#special-thanks">Special Thanks</a></li>
   <li><a href="#conclusion">Conclusion and Future Vision</a></li>
 </ul>
+
 <hr>
 
 <h1 id="about-us" style="font-family:Verdana; color:blue;">About Us</h1>
-<p style="font-family:Verdana;">
-We are a team of three members:
-</p>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <p>
+      We are a team of three 15-year-old Palestinians who built and programmed a robot capable of traversing a specific path in WRO.
+    </p>
+    <h2 style="color:blue;">Amr Younis</h2>
+    <p>Instagram: <a href="https://www.instagram.com/amr.younis04" target="_blank">amr.younis04</a></p>
 
-<h2 style="font-family:Verdana; color:blue;">Amr Younis</h2>
-<p style="font-family:Verdana;">
-A fifteen-year-old Palestinian.<br>
-Instagram: <a href="https://www.instagram.com/amr.younis04" target="_blank">amr.younis04</a>
-</p>
+    <h2 style="color:blue;">Mohammad Abu Laban</h2>
+    <p>Instagram: <a href="https://www.instagram.com/mo_abu_lab" target="_blank">mo_abu_lab</a></p>
 
-<h2 style="font-family:Verdana; color:blue;">Mohammad Abu Laban</h2>
-<p style="font-family:Verdana;">
-A fifteen-year-old Palestinian.<br>
-Instagram: <a href="https://www.instagram.com/mo_abu_lab" target="_blank">mo_abu_lab</a>
-</p>
-
-<h2 style="font-family:Verdana; color:blue;">Ibrahim Mummar</h2>
-<p style="font-family:Verdana;">
-A fifteen-year-old Palestinian.<br>
-Instagram: <a href="https://www.instagram.com/lbrameem_mum" target="_blank">lbrameem_mum</a>
-</p>
-
-<p style="font-family:Verdana;">
-We are pleased to introduce our project, which involves building and programming a robot capable of traversing a specific path. This path consists of a white carpet with two lines in each corner, as well as an orange line and a blue line. The carpet measures three meters long and three meters wide, surrounded by a 10-cm-high black wooden wall, with a 10-cm-high square black wooden wall in the middle of the carpet.
-</p>
+    <h2 style="color:blue;">Ibrahim Mummar</h2>
+    <p>Instagram: <a href="https://www.instagram.com/lbrameem_mum" target="_blank">lbrameem_mum</a></p>
+  </div>
+  <div>
+    <img src="images/Robot.jpg" alt="Team Robot" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
 <hr>
 
-<h1 id="power-sense" style="font-family:Verdana; color:blue;">Power and Sense Management</h1>
-<p style="font-family:Verdana;">
-We used a 12.6-volt, 6A rechargeable lithium battery. It’s a medium-weight battery with large capacity, sufficient for all components. We distributed the power correctly so that no single component consumes more than its share.
-</p>
-
+<h1 id="power" style="font-family:Verdana; color:blue;">Power and Sense Management</h1>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <p>
+      We used a 12.6V, 6A rechargeable lithium battery. It provides enough capacity to power all components, 
+      with correct distribution so no single part consumes more than its share.
+    </p>
+  </div>
+  <div>
+    <img src="images/Battery.jpg" alt="Lithium Battery" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
 <hr>
 
 <h1 id="obstacle" style="font-family:Verdana; color:blue;">Obstacle Management</h1>
-<p style="font-family:Verdana;">
-The robot deals with obstacles using ultrasonic sensors and a camera.
-</p>
-<p style="font-family:Verdana;">
-Ultrasonic technology measures the distance between the obstacle and the robot, enabling it to adjust its direction. It works by sending out sound waves and measuring their bounce.
-</p>
-<p style="font-family:Verdana;">
-The camera recognizes colors and sends a signal to the Raspberry Pi. For example, when detecting red, the robot reacts according to the instructions we programmed.
-</p>
-
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <p>
+      The robot deals with obstacles using ultrasonic sensors and a camera.
+      Ultrasonic technology measures the distance between obstacles and the robot, enabling it to adjust its direction.
+      The camera recognizes colors and sends a signal to the Raspberry Pi. For example, when detecting red, the robot reacts according to the programmed instructions.
+    </p>
+  </div>
+  <div>
+    <img src="images/Ultrasonic.jpg" alt="Ultrasonic Sensor" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
 <hr>
 
 <h1 id="engineering" style="font-family:Verdana; color:blue;">Engineering Factor</h1>
-<p style="font-family:Verdana;">
-We started with a ready-made kit and modified it to suit our task. For example, we added additional layers to contain all the parts and ensured balanced weight distribution, placing the battery in the middle to prevent tilting.
-</p>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <p>
+      We started with a ready-made kit and modified it to suit our task. We added additional layers to contain all the parts and ensured balanced weight distribution, placing the battery in the middle to prevent tilting.
+    </p>
+  </div>
+  <div>
+    <img src="images/Robot.jpg" alt="Robot Layers" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
 <hr>
 
 <h1 id="hardware" style="font-family:Verdana; color:blue;">Hardware</h1>
 
-<h2 style="font-family:Verdana; color:blue;">1- The Robot</h2>
-<p style="font-family:Verdana;">
-We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
-</p>
-<ul style="font-family:Verdana;">
-  <li>Ground layer: DC motor and servo motor</li>
-  <li>Second layer: Battery</li>
-  <li>Third layer: Power button and power regulation circuit</li>
-  <li>Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera and motor driver</li>
-</ul>
-<p style="font-family:Verdana;">
-All connected with jumper wires.
-</p>
-<img src="images/Robot.jpg" alt="Robot" style="width:300px;">
+<!-- Ground + Servo Motor -->
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <h2 style="color:blue;">1- Ground Layer</h2>
+    DC motor and servo motor (MG996). Available in Palestine and suitable for our task. <br>
+    Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpress</a>
+  </div>
+  <div>
+    <img src="images/Servo.jpg" alt="Servo Motor" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
-<h2 style="font-family:Verdana; color:blue;">2- Kit Used</h2>
-<p style="font-family:Verdana;">
-MG996 car model servo and DC motor<br>
-Available in Palestine and suitable for our task<br>
-Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpress</a>
-</p>
+<!-- Battery Layer -->
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <h2 style="color:blue;">2- Battery Layer</h2>
+    12.6V, 6A lithium battery with high voltage and adjustable output.
+  </div>
+  <div>
+    <img src="images/Battery.jpg" alt="Battery" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
-<h2 style="font-family:Verdana; color:blue;">3- Microcontroller</h2>
-<p style="font-family:Verdana;">
-Raspberry Pi 4 8GB RAM<br>
-Fast CPU, Python support, and available locally<br>
-Cost: $92 <a href="https://a.aliexpress.com/_c2yjCN0B" target="_blank">AliExpress</a>
-</p>
-<img src="images/RaspberryPi.jpg" alt="Raspberry Pi" style="width:300px;">
+<!-- Power Converter Layer -->
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <h2 style="color:blue;">3- Power Converter Layer</h2>
+    XL4015 (32V → 1.25V adjustable). Easy to install. <br>
+    Cost: $1 <a href="https://a.aliexpress.com/_c38oxv2b" target="_blank">AliExpress</a>
+  </div>
+  <div>
+    <img src="images/Converter.jpg" alt="DC Converter" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
-<h2 style="font-family:Verdana; color:blue;">4- Battery</h2>
-<p style="font-family:Verdana;">
-12.6V, 6A lithium battery<br>
-High voltage & capacity, adjustable output
-</p>
-
-<h2 style="font-family:Verdana; color:blue;">5- DC Power Converter</h2>
-<p style="font-family:Verdana;">
-XL4015 (32V → 1.25V adjustable)<br>
-Easy to install<br>
-Cost: $1 <a href="https://a.aliexpress.com/_c38oxv2b" target="_blank">AliExpress</a>
-</p>
-<img src="images/Converter.jpg" alt="DC Converter" style="width:300px;">
-
-<h2 style="font-family:Verdana; color:blue;">6- Ultrasonic Sensors</h2>
-<p style="font-family:Verdana;">
-3 × HC-SR04<br>
-Voltage: 3.3 to 5V<br>
-Range: 2cm to 400cm<br>
-Cost: $1 each <a href="https://a.aliexpress.com/_c2yngsHj" target="_blank">AliExpress</a>
-</p>
-
-<h2 style="font-family:Verdana; color:blue;">7- Motor Driver</h2>
-<p style="font-family:Verdana;">
-L298N motor driver<br>
-Sufficient for our motors<br>
-Cost: $1.50 AliExpress
-</p>
-<img src="images/MotorDriver.jpg" alt="Motor Driver" style="width:300px;">
-
-<h2 style="font-family:Verdana; color:blue;">8- Gyroscope</h2>
-<p style="font-family:Verdana;">
-MPU-6050 gyroscope and accelerometer<br>
-Small, efficient, available<br>
-Cost: $2 AliExpress
-</p>
-<img src="images/Gyroscope.jpg" alt="Gyroscope" style="width:300px;">
-
-<h2 style="font-family:Verdana; color:blue;">9- Camera</h2>
-<p style="font-family:Verdana;">
-Ultra-wide USB camera<br>
-Better than Pi camera & easier to program
-</p>
-
-<h2 style="font-family:Verdana; color:blue;">10- Jumper Wires</h2>
-<p style="font-family:Verdana;">
-Male to male, male to female, female to female<br>
-Strong, reusable, Raspberry Pi compatible<br>
-Cost: $3 AliExpress
-</p>
-<img src="images/JumperWires.jpg" alt="Jumper Wires" style="width:300px;">
-
-<h2 style="font-family:Verdana; color:blue;">11- On/Off Button</h2>
-<p style="font-family:Verdana;">
-Regular switch<br>
-Inexpensive and easy to install
-</p>
+<!-- Raspberry Pi + Sensors Layer -->
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <h2 style="color:blue;">4- Sensors and Controller Layer</h2>
+    Raspberry Pi 4 8GB RAM, MPU-6050 gyroscope, 3 × HC-SR04 ultrasonic sensors, ultra-wide USB camera, L298N motor driver, jumper wires, power button.  
+    Cost of Raspberry Pi: $92 <a href="https://a.aliexpress.com/_c2yjCN0B" target="_blank">AliExpress</a>
+  </div>
+  <div>
+    <img src="images/RaspberryPi.jpg" alt="Raspberry Pi Layer" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
 <hr>
 
 <h1 id="software" style="font-family:Verdana; color:blue;">Software</h1>
-<p style="font-family:Verdana;">
-We programmed the robot using Python 3 on Linux (Raspberry Pi OS). Python was chosen for its large library support and flexibility. Libraries such as OpenCV were used for image processing, while GPIO libraries allowed us to control motors and sensors.
-</p>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom:20px;">
+  <div style="flex: 1; font-family:Verdana;">
+    <p>
+      We programmed the robot using Python 3 on Linux. Python libraries like OpenCV and GPIO allowed us to integrate computer vision and control motors & sensors effectively.
+    </p>
+  </div>
+  <div>
+    <img src="images/Software.jpg" alt="Software" width="250" style="margin-left:20px; border-radius:10px;">
+  </div>
+</div>
 
 <hr>
 
 <h1 id="experience" style="font-family:Verdana; color:blue;">Experience and Acquired Expertise</h1>
 <p style="font-family:Verdana;">
-This project gave us valuable skills:
+We gained teamwork, problem-solving, and technical skills in both programming and hardware.  
+We developed expertise in sensor integration, motor control, and computer vision for robotics.
 </p>
-<ul style="font-family:Verdana;">
-  <li>Teamwork and decision-making</li>
-  <li>Problem-solving in programming and hardware</li>
-  <li>Overcoming obstacles in robotics for the first time</li>
-</ul>
-
-<p style="font-family:Verdana;">
-We also gained technical expertise:
-</p>
-<ul style="font-family:Verdana;">
-  <li>Computer vision and sensor integration</li>
-  <li>Open-source robotics design</li>
-  <li>Balancing power, weight, and stability in engineering design</li>
-</ul>
 
 <hr>
 
 <h1 id="special-thanks" style="font-family:Verdana; color:blue;">Special Thanks</h1>
 <p style="font-family:Verdana;">
-Engineer Wissam Nasriyah – for guiding us from zero to hero.<br>
-Engineer Mohammed Dababseh and Supervisor Abeer Mosa – for their valuable support.
+Engineer Wissam Nasriyah – guidance from zero to hero.<br>
+Engineer Mohammed Dababseh and Supervisor Abeer Mosa – valuable support.
 </p>
 
 <hr>
 
 <h1 id="conclusion" style="font-family:Verdana; color:blue;">Conclusion and Future Vision</h1>
 <p style="font-family:Verdana;">
-This project was not just about building a robot — it was about proving what motivated students can achieve with creativity, persistence, and teamwork.
-</p>
-<p style="font-family:Verdana;">
-Our next steps will focus on turning our passion for robotics into solutions that can help people in everyday life. From intelligent navigation systems to practical automation, we aim to expand the boundaries of what we can design and build.
-</p>
-<p style="font-family:Verdana;">
+This project was about building a robot and proving what motivated students can achieve.  
+Next, we aim to expand into real-world robotics solutions to help people daily.  
 <b>Nova Team – Building today, imagining tomorrow</b>
 </p>
