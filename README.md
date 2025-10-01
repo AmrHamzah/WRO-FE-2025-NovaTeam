@@ -71,6 +71,7 @@ We modified a ready-made kit by adding one acrylic layer and two plastic layers,
   <li>Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera and motor driver</li>
 </ul>
 <p style="font-family:Verdana;">
+  
 All connected with jumper wires.
 <img src="Images/Kit.jpg" alt="Robot Kit" width="250" style="float:right; margin-left:15px;">
 </p>
