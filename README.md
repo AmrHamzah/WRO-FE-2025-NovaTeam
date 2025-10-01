@@ -88,16 +88,9 @@ Available in Palestine and suitable for our task<br>
 Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpress</a>
 </p>
 
-<table>
-<tr>
-<td>
-<!-- النص يظل على اليسار -->
-</td>
-<td>
-<img src="Images/Kit.jpg" alt="Robot Kit" width="250">
-</td>
-</tr>
-</table>
+<p style="font-family:Verdana;">
+<img src="Images/Kit.jpg" alt="Robot Kit" width="250" style="float:right; margin-left:15px;">
+</p>
 
 <h2 style="font-family:Verdana; color:blue;">3- Microcontroller</h2>
 <p style="font-family:Verdana;">
