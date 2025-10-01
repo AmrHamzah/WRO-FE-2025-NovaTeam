@@ -56,7 +56,6 @@ We started with a ready-made kit and modified it to suit our task. For example, 
 
 
 
----
 <hr>
 
 <h1 id="hardware" style="font-family:Verdana; color:blue;">Hardware</h1>
@@ -82,8 +81,7 @@ All connected with jumper wires.
 </td>
 <td>
 <!-- الصور على اليمين -->
-<img src="images/Motor.jpg" alt="Motor" width="200"><br>
-<img src="images/Servo.jpg" alt="Servo Motor" width="200">
+<img src="images/Robot.jpg" alt="Robot" width="200"><br>
 </td>
 </tr>
 </table>
