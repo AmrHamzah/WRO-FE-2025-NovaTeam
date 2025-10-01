@@ -61,20 +61,21 @@ We started with a ready-made kit and modified it to suit our task. For example, 
 <h1 id="hardware" style="font-family:Verdana; color:blue;">Hardware</h1>
 
 <h2 style="font-family:Verdana; color:blue;">1- The Robot</h2>
-<p style="font-family:Verdana;">
-We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
-</p>
-<ul style="font-family:Verdana;">
-  <li>Ground layer: DC motor and servo motor</li>
-  <li>Second layer: Battery</li>
-  <li>Third layer: Power button and power regulation circuit</li>
-  <li>Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera and motor driver</li>
-</ul>
-<p style="font-family:Verdana;">
-  
-All connected with jumper wires.
-<img src="Images/Kit.jpg" alt="Robot Kit" width="250" style="float:right; margin-left:15px;">
-</p>
+
+<div style="overflow:hidden;">
+  <p style="font-family:Verdana; float:left; width:60%;">
+    We modified a ready-made kit by adding one acrylic layer and two plastic layers, giving us four in total:
+    <ul style="font-family:Verdana;">
+      <li>Ground layer: DC motor and servo motor</li>
+      <li>Second layer: Battery</li>
+      <li>Third layer: Power button and power regulation circuit</li>
+      <li>Fourth layer: Raspberry Pi, gyroscope, three ultrasonic sensors, camera and motor driver</li>
+    </ul>
+    All connected with jumper wires.
+  </p>
+
+  <img src="images/Kit.jpg" alt="Robot Kit" width="250" style="float:right; margin-left:15px;">
+</div>
 <!-- الصور على اليمين -->
 <h2 style="font-family:Verdana; color:blue;">2- Kit Used</h2>
 <p style="font-family:Verdana;">
