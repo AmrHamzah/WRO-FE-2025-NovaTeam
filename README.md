@@ -5,8 +5,9 @@
 <title>Nova Team – WRO Future Engineers 2025</title>
 <style>
   body { font-family:Verdana; line-height:1.5; }
-  a { text-decoration:none; color:blue; }
-  h1, h2 { color:blue; }
+  a { text-decoration:none; color:blue; } /* يلغي أي خط تحت الروابط */
+  h1, h2 { color:blue; text-decoration:none; } /* يلغي أي خط تحت العناوين */
+  code, pre { display:none; } /* يخفي أي صندوق كود */
   img { border-radius:10px; margin-bottom:10px; }
   .right-img { float:right; margin-left:20px; margin-bottom:20px; }
 </style>
