@@ -143,7 +143,7 @@ Sufficient for our motors<br>
 Cost: $1.50 <a href="https://a.aliexpress.com/_c4BxRCor" target="_blank">AliExpress</a>
 </p>
 
-<img src="images/MotorDriver.jpg" alt="Motor Driver" width="200">
+<img src="Images/MotorDriver.jpg" alt="Motor Driver" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">8- Gyroscope</h2>
 <p style="font-family:Verdana;">
