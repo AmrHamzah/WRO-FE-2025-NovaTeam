@@ -81,7 +81,7 @@ All connected with jumper wires.
 </td>
 <td>
 <!-- الصور على اليمين -->
-<img src="images/Robot.jpg" alt="Robot" width="200"><br>
+<img src="Images/Robot.jpg" alt="Robot" width="200"><br>
 </td>
 </tr>
 </table>
@@ -99,7 +99,7 @@ Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpres
 <!-- النص يظل على اليسار -->
 </td>
 <td>
-<img src="images/Kit.jpg" alt="Robot Kit" width="250">
+<img src="Images/Kit.jpg" alt="Robot Kit" width="250">
 </td>
 </tr>
 </table>
@@ -110,7 +110,7 @@ Raspberry Pi 4 8GB RAM<br>
 Fast CPU, Python support, and available locally<br>
 Cost: $92 <a href="https://www.aliexpress.com/item/1005001866255360.html" target="_blank">AliExpress</a>
 </p>
-<img src="images/RaspberryPi.jpg" alt="Raspberry Pi" width="200">
+<img src="Images/RaspberryPi.jpg" alt="Raspberry Pi" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">4- Battery</h2>
 <p style="font-family:Verdana;">
