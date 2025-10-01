@@ -167,7 +167,7 @@ Male to male, male to female, female to female<br>
 Strong, reusable, Raspberry Pi compatible<br>
 Cost: $3 <a href="https://www.aliexpress.com/item/32722114256.html" target="_blank">AliExpress</a>
 </p>
-<img src="images/JumperWires.jpg" alt="Jumper Wires" width="200">
+<img src="Images/JumperWires.jpg" alt="Jumper Wires" width="200">
 
 <h2 style="font-family:Verdana; color:blue;">11- On/Off Button</h2>
 <p style="font-family:Verdana;">
