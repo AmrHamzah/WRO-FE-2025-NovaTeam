@@ -93,6 +93,17 @@ Available in Palestine and suitable for our task<br>
 Cost: $95 <a href="https://a.aliexpress.com/_c3kFLPlv" target="_blank">AliExpress</a>
 </p>
 
+<table>
+<tr>
+<td>
+<!-- النص يظل على اليسار -->
+</td>
+<td>
+<img src="images/Kit.jpg" alt="Robot Kit" width="250">
+</td>
+</tr>
+</table>
+
 <h2 style="font-family:Verdana; color:blue;">3- Microcontroller</h2>
 <p style="font-family:Verdana;">
 Raspberry Pi 4 8GB RAM<br>
