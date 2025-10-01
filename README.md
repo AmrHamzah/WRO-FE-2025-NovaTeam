@@ -116,7 +116,7 @@ Cost: $1 <a href="https://www.aliexpress.com/item/32824713057.html" target="_bla
 3 × HC-SR04<br>
 Voltage: 3.3 to 5V<br>
 Range: 2cm to 400cm<br>
-Cost: $1 each <a href="https://a.aliexpress.com/_c3gyMqNp" target="_blank">AliExpress</a>
+Cost: $1 each piece <a href="https://a.aliexpress.com/_c3gyMqNp" target="_blank">AliExpress</a>
 </p>
 <img src="Images/Ultrasonic.jpg" alt="Ultrasonic Sensor" width="250">
 
