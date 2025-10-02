@@ -49,7 +49,7 @@ def open_task():
     print("did 3 laps ")
 
 if __name__ == "__main__":
-    print("اضغط على الزر لبدء المهمة...")
+    print("pushzabutton")
     start_button.wait_for_press()
-    print("بدأت المهمة!")
+    print("started")
     open_task()
