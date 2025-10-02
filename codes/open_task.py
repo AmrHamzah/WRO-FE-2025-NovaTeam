@@ -6,7 +6,7 @@ from mainfuncions import (
 )
 from gpiozero import Button
 
-# زر التشغيل على GPIO 21 (غيره حسب توصيلك)
+
 start_button = Button(21)
 
 def dist_left():
