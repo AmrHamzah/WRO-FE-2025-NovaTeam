@@ -23,13 +23,10 @@ We are a team of three members:
 A fifteen-year-old Palestinian.  
 Instagram: [amr.younis04](https://www.instagram.com/amr.younis04)
 
-### Mohammad Abulaban
-A fifteen-year-old Palestinian.  
+### Mohammad Yonis
+A fourteen-year-old Palestinian.  
 Instagram: [mo_abu_lab](https://www.instagram.com/mo_abu_lab)
 
-### Ibrahim Mummar
-A fifteen-year-old Palestinian.  
-Instagram: [lbrameem_mum](https://www.instagram.com/lbrameem_mum)
 
 We are pleased to introduce our project, which involves building and programming a robot capable of traversing a specific path. This path consists of a white carpet with two lines in each corner, as well as an orange line and a blue line. The carpet measures three meters long and three meters wide, surrounded by a 10-cm-high black wooden wall, with a 10-cm-high square black wooden wall in the middle of the carpet.
 
