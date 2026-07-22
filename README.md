@@ -1,4 +1,4 @@
-# Nova Team – WRO Future Engineers 2025
+# Nova Team – WRO Future Engineers 2026
 
 ![Banner](Images/banner.jpg)
 
@@ -179,13 +179,6 @@ We also gained technical expertise:
 - Computer vision and sensor integration
 - Open-source robotics design
 - Balancing power, weight, and stability in engineering design
-
----
-
-## Special Thanks
-
-Engineer Wissam Nasriyah – for guiding us from zero to hero.  
-Engineer Mohammed Dababseh and Supervisor Abeer Mosa – for their valuable support.
 
 ---
 
